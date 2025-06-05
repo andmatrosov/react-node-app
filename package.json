@@ -10,7 +10,8 @@
     "lint": "concurrently 'pnpm b lint' 'pnpm w lint'",
     "lint:fix": "concurrently 'pnpm b lint --fix' 'pnpm w lint --fix'",
     "prettify": "pnpm -r --parallel prettify",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "chmod": "chmod ug+x .husky/*"
   },
   "devDependencies": {
     "concurrently": "^8.2.0",
